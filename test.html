@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="C'est une description">
+        <link ref="stylesheet" href="style.css">
+        <title>Je teste mes connaissances</title>
+    </head>
+    <body>
+        <div>
+            <h1>C'est un test</h1>
+            <p>Blmablnlkdqshkjshflksdgjflkkljlkdsfjh <a href="#" title="Lien caca">lien pourri</a></p>
+
+            <form action="#" method="POST" class="formulaire_test">
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" required>
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" name="prenom" id="prenom" required>
+                    <label for="email">E-mail : </label>
+                    <input type="email" required>
+                    <label for="tel">Numéro de téléphone : </label>
+                    <input type="tel" required>             
+                </fieldset>
+                <fieldset>
+                    <legend>Plus d'informations</legend>
+                    <label>Pays : </label>
+                    <select name="pays" id="pays">
+                        <optgroup label="Europe">
+                            <option value="France">France</option>
+                            <option value="Espagne">Espagne</option>
+                            <option value="Royaume-Unis">Royaume-Unis</option>
+                        </optgroup>
+                        <optgroup label="Amériques">
+                            <option value="Etats-Unis">Etats-Unis</option>
+                            <option value="Brésil">Brésil</option>
+                        </optgroup>
+                    </select>
+                    <br />
+                    <label>Plat préféré : </label>
+                        <input type="radio" id="plat1" name="plat" value="pate" checked><label for="plat1">Pâte</label>
+                        <input type="radio" id="plat2" name="plat" value="riz"><label for="plat2">Riz</label>
+                        <input type="radio" id="plat3" name="fruit" value="pomme"><label for="plat3">Pomme</label>
+                        <br />
+                    <label>Console de jeux : </label>
+                        <input type="checkbox" id="console1" name="console" value="NES" checked><label for='console1'>NES</label>
+                        <input type="checkbox" id="console2" name="console" value="Switch"><label for="console2">Switch</label>
+                </fieldset>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <footer>
+            <p>Ceci est un footer</p>
+        </footer>
+    </body>
+</html>
